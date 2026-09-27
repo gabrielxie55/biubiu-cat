@@ -1,0 +1,16 @@
+# 打包产物：app 和下载包放在 GitHub Releases，不进仓库
+build/
+
+# 原始视频：网友作品，仓库里只放抠好的素材
+source*.mp4
+
+# 本地工具配置
+.claude/
+
+# 小红书小工具版，还没做完
+web/
+
+.DS_Store
+
+# 小红书小工具版的素材生成工具，跟着 web/ 一起先不放
+tools/web_assets.swift
